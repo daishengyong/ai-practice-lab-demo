@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: 商用售后：交易与退款协商
+    url: https://github.com/daishengyong/ai-practice-lab-demo#%E5%95%86%E7%94%A8%E5%94%AE%E5%90%8E
+    about: 私密联系售后；实际退款按SkillPay订单流程及核对结果处理。请先只说明问题类型和商品名称，不要发送密码、验证码、密钥或客户资料。
   - name: 查看SkillPay商品说明
     url: https://skillpay.alipay.com/shelf/product?productId=P0806000210870850&merchantCode=ai-practice-lab
     about: 查看实际价格、依赖与权益；不要在公开Issues提交订单或付款材料。
