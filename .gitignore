@@ -1,0 +1,25 @@
+# Python and operating-system artifacts
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Local practice records must not enter the public repository
+practice-sessions/
+preview-sessions/
+sessions/
+session/
+trial-state/
+validation/
+preview.json
+session.json
+inbox/
+.preview-*
+.session-*
+
+# Local credentials and developer overrides
+.env
+.env.*
+*.pem
+*.key
+*.log
