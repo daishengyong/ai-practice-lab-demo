@@ -1,0 +1,61 @@
+name: 免费体验反馈
+description: 告诉我们你实际试到了哪一步，或为什么还没试；不需要购买或给好评。
+title: "[体验反馈] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你分享实际经历。没试也可以说明原因；不需要购买，也不要求好评。
+        这是公开问题区。只使用本练习的虚构案例，不要提交真实客户资料、订单、付款截图、邮箱、账号、密码、验证码、API密钥或带个人信息的完整文件路径。
+        私密反馈可发到 [hustgly020102@gmail.com](mailto:hustgly020102@gmail.com)。交易与退款协商也请走该邮箱及实际SkillPay订单流程，不在公开表单提供交易资料。
+  - type: dropdown
+    id: experience_stage
+    attributes:
+      label: 你实际体验到了哪一步？
+      description: 请选择最接近实际情况的一项。
+      options:
+        - 只看了介绍，还没有尝试
+        - 聊天预览：已收到AI的客户开场，还没有自己回应
+        - 聊天预览：我已自己回应，并收到反馈
+        - 本地Skill：已尝试启动，还没完成一轮
+        - 本地Skill：我已自己回应，并收到反馈
+        - 本地Skill：还尝试了保存或恢复
+    validations:
+      required: true
+  - type: dropdown
+    id: actual_reply
+    attributes:
+      label: 你是否亲自回应了这个虚构客户？
+      options:
+        - 是，我自己写了回应
+        - 否，还没有回应
+    validations:
+      required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: 这次最想反馈的一件事
+      description: 可以只写一句：为什么没试、卡在哪里，或实际尝试后哪一句反馈有帮助/没有帮助。不必提供完整对话。
+    validations:
+      required: true
+  - type: textarea
+    id: optional_quote
+    attributes:
+      label: 一小句实际反馈或你的回应（可选）
+      description: 只粘贴本虚构案例中你愿意公开的一句话；不贴真实客户资料或完整对话。不想公开可留空。
+    validations:
+      required: false
+  - type: input
+    id: environment
+    attributes:
+      label: 使用的AI助手或服务名称（可选）
+      description: 只写产品名称即可，不写账号、设备编号、个人目录或用户名。
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已删除真实客户资料、交易与个人信息、密码和密钥。
+          required: true
