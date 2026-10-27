@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         这是公开问题区。不要提交订单号、付款截图、邮箱、账号、客户资料、密码、验证码、API密钥或含个人信息的完整文件路径。
-        本表单仅接收一般运行问题；真实交易和退款请核对SkillPay实际订单提供的入口；独立商用私密联系入口尚待补全。
+        本表单仅接收脱敏技术问题。交易、付款或退款协商请私密联系 [hustgly020102@gmail.com](mailto:hustgly020102@gmail.com)，实际退款按SkillPay订单流程及核对结果处理；不要在此提交交易材料。邮件请先说明问题类型和商品名称，不要发送密码、验证码、API密钥或真实客户资料。
   - type: dropdown
     id: stage
     attributes:
